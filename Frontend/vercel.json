@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/:match*", "destination": "http://release-checklist-tool-ddy5.onrender.com/api/:match*" },
+    { "source": "/:path*", "destination": "/index.html" }
+  ]
+}
